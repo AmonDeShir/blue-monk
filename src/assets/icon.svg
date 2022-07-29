@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xml:space="preserve"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg898"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs902"><rect
+     x="14.958307"
+     y="524.82666"
+     width="476.57715"
+     height="105.03507"
+     id="rect4308" /></defs><sodipodi:namedview
+   id="namedview900"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:pageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.0951869"
+   inkscape:cx="234.20661"
+   inkscape:cy="275.29548"
+   inkscape:window-width="1904"
+   inkscape:window-height="1008"
+   inkscape:window-x="8"
+   inkscape:window-y="64"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg898" />
+  <g
+   id="g896">
+    <path
+   fill="#f1b986"
+   d="M430 277a38 38 0 0 0 0-75H82a38 38 0 0 0 0 75"
+   data-original="#f1b986"
+   id="path880" />
+    <path
+   fill="#417da9"
+   d="M430 512H82l1-30c3-50 43-89 93-92a1707 1707 0 0 1 182 4 97 97 0 0 1 71 88l1 30z"
+   data-original="#e27d47"
+   id="path882" />
+    <path
+   fill="#5ba4da"
+   d="m363 388-5 6a694 694 0 0 1-138 118h-26a1093 1093 0 0 0 157-134 8 8 0 1 1 12 10zm54 50-1 1c-30 30-84 56-122 73h-41a533 533 0 0 0 154-86 8 8 0 0 1 10 12zm-161-50-50 2c-31 3-55 42-57 92v30H82l1-30c3-50 43-89 93-92l80-2z"
+   data-original="#dd542e"
+   id="path884" />
+    <path
+   fill="#f1d0a5"
+   d="M256 0c89 0 155 42 165 103 9 68 11 137 8 205-3 50-43 90-93 92l-80 2-80-2c-50-2-90-42-93-92-3-68-1-137 8-205C101 42 167 0 256 0z"
+   data-original="#f1d0a5"
+   id="path886" />
+    <path
+   fill="#f1b986"
+   d="m208 401-32-1c-50-2-90-42-93-92-3-68-1-137 8-205 9-57 67-97 146-102-42 9-73 47-78 101-5 69-6 138-4 207 1 50 25 89 53 92z"
+   data-original="#f1b986"
+   id="path888" />
+    <path
+   fill="#417da9"
+   d="m 256,279.74856 c -18,0 -35,10 -42,27 a 8,-8 0 1 0 14,6 31,-31 0 0 1 56,0 8,-8 0 1 0 14,-6 c -7,-17 -24,-27 -42,-27 z"
+   data-original="#da4a54"
+   id="path890" />
+    <path
+   fill="#2c343a"
+   d="M175 203c-8 0-15 10-15 23s7 24 15 24 16-11 16-24-7-23-16-23zm162 0c-9 0-16 10-16 23s7 24 16 24 15-11 15-24-7-23-15-23z"
+   data-original="#454045"
+   id="path892" />
+    <path
+   fill="#417da9"
+   d="M237 127c-3 0-6-2-7-5s0-7 3-9c5-4 13 1 12 8-1 3-4 6-8 6zm0-35c-3 0-6-2-7-5s0-7 3-9c6-4 14 1 12 8-1 3-4 6-8 6zm0-35c-3 0-6-3-7-6s0-6 3-8c5-4 13 0 12 7-1 4-4 7-8 7zm38 70c-7 0-11-8-6-13 2-2 6-3 9-1 3 1 5 5 4 8s-4 6-7 6zm0-35c-7 0-11-9-6-14 3-2 6-2 9-1 3 2 5 5 4 8-1 4-4 7-7 7zm0-35c-4 0-7-3-8-6s0-6 3-8c5-4 13 0 12 7 0 4-4 7-7 7z"
+   data-original="#000000"
+   id="path894" />
+  </g>
+<text
+   xml:space="preserve"
+   id="text4306"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4308);fill:#000000;fill-opacity:1;stroke:none"
+   transform="matrix(1.3017195,0,0,1.5562686,93.875075,-295.71217)"><tspan
+     x="14.958984"
+     y="562.02617"
+     id="tspan117437"><tspan
+       style="font-family:Lato;-inkscape-font-specification:Lato;fill:#ffffff"
+       id="tspan117435">Blue   Monk</tspan></tspan></text></svg>
+
