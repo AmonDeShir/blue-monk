@@ -1,8 +1,10 @@
-import { createMemo, For } from "solid-js";
+import { createEffect, createMemo, For } from "solid-js";
 import { useParams } from "@solidjs/router";
 import { Navigation } from "../../components/navigation/navigation"
 import { projects, files, pages, elements } from "../../store/project/project";
+import { Markdown } from "../../components/markdown/markdown";
 import "./project.scss";
+import { Element, ElementData } from "../../components/element/element";
 
 export function Project() {
   const { id, page } = useParams();
@@ -36,24 +38,30 @@ export function Project() {
     return projectPages()[0];
   });
 
+// ...element, asset: 
+
   const pageElements = createMemo(() => {
     const ids = pageData()?.elements ?? [];
 
     return ids
       .map((id) => elements().find((element) => element.id === id))
       .filter((element) => element)
-      .map((element) => ({ ...element, asset: assets().find(asset => element.data === asset.path) }))
+      .map((element) => { 
+        let e = (element as ElementData); 
+        e.asset = assets().find(asset => element.data === asset.path) 
+        
+        return e;
+      })
       .filter((element) => element.type === 'markdown' || element.asset)
       .sort((a, b) => a.position - b.position)
   });
-
 
   return (
     <div class="project">
       <Navigation project={id} pages={projectPages()} />
       <div class="project__content">
-        <For each={pageElements()}>{({ data }) =>
-          <div>{data}</div>
+        <For each={pageElements()}>{(data) =>
+          <Element data={data} />
         }</For>
       </div>
     </div>

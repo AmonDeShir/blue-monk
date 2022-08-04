@@ -83,3 +83,19 @@ export function createProject() {
     ]
   });
 }
+
+
+export function setElementValue(element: string, value: string) {
+  setElements((elements) => {
+    let index = elements.findIndex(({ id }) => id === element);
+
+    if (index === -1) {
+      return elements;
+    }
+
+    const [item] = elements.splice(index, 1);
+    item.data = value;
+
+    return [...elements, item];
+  })
+}

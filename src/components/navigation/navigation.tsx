@@ -9,7 +9,7 @@ type Props = {
 }
 
 
-export function Navigation({ project, pages }: Props) {
+export function Navigation(props: Props) {
   return (
     <nav class="navigation">
       <div class="navigation__logo" />
@@ -19,9 +19,9 @@ export function Navigation({ project, pages }: Props) {
           <Link href="/projects" class="navigation__item">Projects</Link>
         </li>
         
-        <For each={pages}>{({ id, title }) =>
+        <For each={props.pages}>{({ id, title }) =>
           <li class="navigation__item">
-            <Link href={`/projects/${project}/${id}`} class="navigation__item">{title}</Link>
+            <Link href={`/projects/${props.project}/${id}`} class="navigation__item">{title}</Link>
           </li>
         }</For>
       </ul>
